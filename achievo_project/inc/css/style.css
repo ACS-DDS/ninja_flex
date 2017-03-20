@@ -1,0 +1,564 @@
+a {
+	/*color:white !IMPORTANT;*/
+	font-weight: bold !IMPORTANT;
+}
+input.padding_input{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin-bottom: 0.2em;
+	outline:none;
+    width: 100%;
+    border-radius: 4px;
+    border:white solid 3.5px;
+}
+header > h2{
+	color:white;
+}
+button#home_link{
+	background: black;
+	color:white;
+	outline-style: none;
+	font-weight: bold;
+
+}
+button#home_link:hover{
+	border-color:black;
+	background: white;
+	font-weight: bold;
+	color: black;
+}
+header{    
+	margin: auto;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.32);
+    /*border-bottom: grey 2px solid;*/
+    padding: 1em;
+}
+footer{		
+	bottom: 0;
+	color:white;
+	height:15em;
+	width: 100%;
+	background:rgba(0, 0, 0, 0.86);
+	/*border-top: grey 2px solid;*/
+}
+/********************PAGE REGISTER ************************/
+section#register_men{
+	width: 100%;	
+	/*border:solid;*/
+	height: 54em;
+	background:#364451;		
+}
+aside#reg_men{
+	outline-style: none;
+	width: 42%;
+}
+input#reggg{
+	margin-bottom: 0.4em;
+	border-radius:4px;	
+    outline-style: none;
+	width: 100%;
+	position: relative;
+	left:7.3em;
+	top:5em;
+	border:solid white 2px;
+}
+input#reg_v:hover{
+	/*border-color: black;*/
+	background: white;
+	color: black;
+	font-weight: bold;
+}
+input#reg_v{
+	background: black;
+    color: white;
+	position: relative;
+	outline-style: none;
+	left:7.3em;
+	font-weight: bold;
+	top:5.4em;
+}
+/********************FIN REGISTER ************************/
+/********************PAGE LOGIN ************************/
+section.input_log{
+	width: 100%;
+    height: 40em;
+    background:#364451 ;
+}
+aside.log{
+	width: 42%;
+    height: 10em;
+    margin-left: 6.5em;
+}
+input.lolilolinsubmit{	
+	position: relative;
+    top: 5em;
+    left: 2.5em;
+}   
+input#utilisateur,
+input#pass{
+	outline-style: none;
+	width: 98%;	
+	border-radius: 4px;	
+	border:solid rgb(82, 97, 117) 2px;
+	position: relative;
+    left: 2.5em;
+    top: 5em;
+}
+/********************FIN LOGIN ************************/
+/********************PAGE ACHIEVO ************************/
+/*header#header_achievo{
+	
+}*/
+h2#m_sucss{
+	color:white;
+}
+aside.co_lo{
+    float: right;
+    position: relative;
+    top: 0;
+}
+#connected:hover{
+	/*border:white;*/
+	/*background: rgba(51, 51, 51, 0.18);*/
+}
+#liste_co_block{
+	/*background:black;*/
+}
+#titre_co_on{
+	height: 4em;
+	border-bottom:rgba(255, 255, 255, 0.5) solid 1em;
+	height: 2.5em;
+	color: white;
+	font-size: 25px;
+	padding-left: 1.9em;;	
+}
+#liste_co{
+	font-style:arial;
+	font-weight: bold;
+	font-size-adjust: all;
+	background: rgba(0, 0, 0, 0);
+    color: white;
+    display: flex;
+   	border:none;
+    margin: auto;
+    width: 100%;
+    border-radius: 0 !IMPORTANT;
+    /*border-bottom: solid white 3px;*/
+}
+#liste_co:hover{
+	background:white;
+	color:black;
+	font-weight: bold;
+}
+.lol{
+	float:left;
+	height:10px;
+	width: 10px;
+	background: #00FF00;
+	border-radius: 100%;
+	position: relative;
+    top: 6.4px;
+    left: -5px;
+}   
+article#connected{
+	border:none;
+	position: relative;
+	top:0;
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+span.lolilol{
+	float:left;
+	height:10px;
+	width: 10px;
+	background: #00FF00;
+	border-radius: 100%;
+	position: relative;
+    top: 5px;
+    left: -5px;
+}
+input#logout_achievo:hover{
+	background: white;
+	color:black;
+	border-color: black;
+}
+input#logout_achievo{
+	border:solid white 2px;
+    color: white;
+    outline-style: none;
+    background: black;
+    font-weight: bold;
+}
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+section#effet_de_beaute{
+	width: 100%;
+	display: none;
+
+}
+#bouton_slideUp{
+    background: aliceblue;
+    color: rgba(105, 176, 174, 0.15);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    font-size: -webkit-xxx-large;
+    font-size: 104px;
+    outline-style: none;
+    padding-bottom: 1em;
+    padding-top: 0em;
+}
+#bouton_slideUp:hover{
+	color:LawnGreen;
+}
+section.cardrillage{
+    /*border: solid;*/
+    width: 100%;
+    height: 69em;    
+}
+#flex_flux{ 
+    /*border: solid yellow;*/
+    width: 70%;
+    float: left;
+    height: 100%;
+    padding-left: 4.5em;
+    padding-top: 4.5em;
+    overflow: auto;
+    background: aliceblue;
+}
+#flex_flux::-webkit-scrollbar { display: none; }
+.side_gauche::-webkit-scrollbar { display: none; }
+.msg::-webkit-scrollbar { display: none; }
+aside.side_gauche{
+    border-right: 0.2em solid white;
+    float: left;
+    background: rgba(37, 24, 24, 0.83);
+    width: 15%;
+    display:flex;    
+    overflow: auto;
+}
+aside.side_droite{
+    float: right;
+    background: rgba(0, 0, 0, 0.83);
+    width: 15%;
+    /*border-left: 3px rgba(0, 0, 0, 0.44) solid;    */
+}
+div.barre_l{
+	/*border-right: 3px rgba(0, 0, 0, 0.44) solid;*/
+    width: 100%;
+    height: 69em;
+    background: rgba(105, 176, 174, 0.15);
+}
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+
+button#create_link{	
+    background: aliceblue;
+    color: rgba(105, 176, 174, 0.15);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    font-size: -webkit-xxx-large;
+    padding-top: 0em;
+    font-size: 66px;
+    outline-style: none;    
+}
+h3#create_create{
+	/*border:solid;*/
+	width: 100%;
+	/*font-size: 31px; */
+	/*padding-left: 0.3em;*/
+}
+article.create_lol{
+    text-align: center;
+    color: white;
+    margin-top: -5.4%;
+}
+article#block_donnees:hover{
+	cursor: pointer;
+	background: aliceblue;
+}
+article#block_donnees{
+	font-weight: bold;
+	color:black;
+    background: white;
+	font-family: arial !IMPORTANT;	
+	display: inline-block;
+    width: 20em;
+	border: white solid 3px;
+    margin: 0.6em 0.6em 0.6em 0.6em;
+    padding: 1em 1em;
+    border-radius: 6px;
+
+}
+h4#titre_block{
+	/*border:solid 2px black;*/
+	/*display: block;*/
+	height: 2.4em;
+}
+div#para_intitul{
+	/*border:solid;*/
+	height: 8em;
+}
+span#intitulle_block{
+	text-align: center;
+	text-align: justify;
+	/*border:solid;*/
+}
+p.p_progression{
+	margin:auto;
+	/*border:solid;*/
+	width: 50%;
+}
+progress::-webkit-xxx-large{
+	color:grey;
+	width: 100%;
+	position: relative;
+	color: black;
+    /*top: -0.2em;*/
+
+}
+h3.r_u_d{
+	text-align: center;
+
+}
+a#read_link,a#update_link,a#delete_link{
+	background: white;
+    color: black;
+	margin-left: 0.3em;
+	border:2px black solid;
+}
+a#delete_link:hover, button#create_link:hover, a#read_link:hover,a#update_link:hover{
+	background: black;	
+	border:2px rgb(82, 97, 117) solid;
+	color: white;
+}
+button#create_link:hover{
+	background: black;
+	border:3.5px white solid;
+	color:LawnGreen;	
+}
+a#delete_link{	
+	color:white;
+	font-weight: bold;
+    position: relative;
+    top: -1em;
+    right: -1em;
+	background: black;
+	float: right;
+	border:2px black solid;
+}
+	a#delete_link:hover{	
+	color:red;
+	font-weight: bold;
+	background: white;
+	border:2px black solid;
+}
+/********************FIN ACHIEVO ************************/
+/********************PAGE READ ************************/
+section.id_tache{
+	width: 100%;
+	/*border:5px solid grey;*/
+}
+aside.tache{
+	width:65%;
+	/*border:5px solid grey;*/
+	margin: 2.5em 1.5em;
+}
+/********************FIN READ ************************/
+/********************PAGE UPDATE ************************/
+aside.update{
+	margin-left: 2.5em;	
+	width: 22.2%;
+}
+input#prog{
+	outline-style: none;
+	border-radius: 4px;
+	border:solid 1px rgb(82, 97, 117);
+	position: relative;
+    left: -1em;
+}
+input#update{
+	background: rgb(82, 97, 117);
+    color: white;
+    outline:none;
+    position: relative;
+    left: -1em;
+    top: -0.1em; 
+}
+/********************FIN UPDATE ************************/
+/********************PAGE CREATE ************************/
+section#create{
+    width: 50%;
+    color: rgb(82, 97, 117);
+    border: solid;
+    height: 25em;
+    background:#364451;
+    float : left;
+}
+aside.create_section_parent{
+    width: 97%;
+	margin:auto;
+	margin-top: 4.5em;
+}
+aside.formulaire_creer{
+	width: 100%;
+}
+section#plop{
+    width: 50%;
+   /* color: rgb(82, 97, 117);*/
+    border: solid;
+    height: 25em;
+    background:#364451;
+    float:right;
+}
+aside.plop_desc{
+
+}
+aside.desc{
+	color:white;
+	padding: 1em 1em;
+	text-align:justify;
+}
+input#send_info{
+	background: black;
+	font-weight: bold;
+	color:white;
+	border-color: white;
+}
+/********************FIN CREATE ************************/
+
+/********************PAGE HOME ************************/
+button#reg{
+	float:right;
+	outline-style: none;
+	position: relative;	
+	right: 0.3em;
+	background: black;
+	color:white;
+	border-color: white;
+	font-weight: bold;
+	position: relative;
+	top: -5em;
+}
+button#reg:hover{
+	border-color:white;
+}
+button#co{
+	background: black;
+	color:white;
+	border-color: white;
+	font-weight: bold;
+	float:right;
+	outline-style: none;	
+	position: relative;
+	top: -5em;
+}
+button#co:hover{
+	border-color:white;
+}
+a#link_co{
+	/*color:black;*/
+	color: white;
+	text-decoration: none;	
+}	
+#error_if_no_session{	
+	outline-style: none;	
+	background:black;
+	color:white;
+	font-weight: bold;
+}
+#error_if_no_session:hover{
+	border-color:white;	
+}
+/*section#block_bienvenue{*/
+	/*width: 100%;*/
+	/*display: inline-flex;*/
+/*}*/
+/*aside.bienvenue,aside.c_home{*/
+	/*width: 50%; */
+	/*background-repeat: no-repeat;*/
+    /*background-size: cover;   */
+	/*background-image: url('http://yassinl.dijon.codeur.online/achievo_project/inc/imgs/note_un.jpg');*/
+	/*padding: 1em 1em 1em 1em;	*/
+	/*border: solid;*/
+	/*border-radius: 4em;	*/          
+/*}*/
+section#all{
+	display: flex;
+    /*min-width: 100%;*/
+    height: 82em;
+}
+img{
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+}
+/********************PAGE HOME ************************/
+/***********************PAGE POST_ACHIEVO******************/
+section#sttikuss{
+	width: 100%;
+}
+input#message{
+    width: 100%;
+    height: 2.5em;
+    outline: none;
+    padding: 1em 1em;
+}
+input#post_mess{
+	outline-style: none;	
+	background:black;
+	color:white;
+	font-weight: bold;
+	position: relative;
+	border-color: rgba(11, 74, 119, 0.61);
+	left: 0.4em;
+	top:0.5em;
+	margin-bottom: 1.4em;
+}
+.msg{
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	overflow: auto;
+    height: 62.6em;
+}
+dl#post{
+	background:white;
+	margin-bottom: 0em;
+}
+dt{
+    word-break: break-all;
+}
+dt#p, dt#t{	
+	padding: 0.45em;
+}
+dd{
+	border-bottom: solid rgba(0, 0, 0, 0.42) 0.2em;
+	padding: 0.45em;
+}
+#notif_time{
+	color : rgba(11, 74, 119, 0.61);
+}
+#notif_para{
+	width:100%;
+	border-radius: 0px;
+	background:white;
+	color:black;
+	border-bottom: :grey 2px solid;
+}
+#notif{
+	width:100%;
+	border-radius: 0px;
+	background:rgba(11, 74, 119, 0.61);
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+/***********************FIN POST_ACHIEVO******************/
